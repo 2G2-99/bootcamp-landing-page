@@ -1,0 +1,103 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #4d7aa8;
+	font-family: 'Montserrat', sans-serif;
+}
+/* HEADER */
+header {
+	background-color: beige;
+	border-bottom: 10px solid #4b1f4b;
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-weight: 300;
+}
+
+nav {
+}
+
+#nav-list {
+	display: flex;
+	gap: 1rem;
+	justify-content: flex-end;
+}
+
+.nav-item {
+	display: inline;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: #4b1f4b;
+}
+
+a:visited {
+	color: #4b1f4b;
+}
+
+a:hover {
+	color: #4d7aa8;
+	font-weight: 400;
+}
+
+/* MAIN */
+#content {
+	border-bottom: 10px solid beige;
+}
+
+h1 {
+	padding: 1rem;
+	text-align: center;
+}
+
+#image-container {
+	display: flex;
+	flex-flow: column;
+	gap: 0.5rem;
+	height: fit-content;
+	margin: auto;
+	width: fit-content;
+}
+
+picture {
+	align-items: center;
+	border-bottom: 10px solid beige;
+	border-bottom-left-radius: 40%;
+	border-bottom-right-radius: 5px;
+	border-top: 10px solid beige;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 40%;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}
+
+#image-container span {
+	border: 5px solid #4d7aa8;
+	border-radius: 15px;
+	color: #4d7aa8;
+	font-family: 'Montserrat Subrayada', sans-serif;
+	padding: 5px 0;
+	position: absolute;
+	top: 100;
+}
+
+#logo {
+	background-color: #4b1f4b;
+	border-bottom-left-radius: 30%;
+	border-top-right-radius: 30%;
+	fill: beige;
+	height: 200px;
+	margin: auto;
+	padding: 0.25rem;
+	width: 200px;
+}
+
+figcaption {
+	margin-bottom: 1rem;
+}
